@@ -1,0 +1,11 @@
+{
+    "firstName": {
+        "type": "string"
+    },
+    "lastName": {
+        "type": "string"
+    },
+    "regDate": {
+        "type": "date"
+    }
+}

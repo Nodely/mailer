@@ -1,0 +1,9 @@
+type: smtp
+
+smtp:
+  host: localhost
+  port: 25
+
+ses:
+  key: AWS_API_KEY
+  secret: AWS_API_SECRET

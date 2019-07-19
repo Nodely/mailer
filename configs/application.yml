@@ -1,0 +1,6 @@
+templates:
+  storage: ./storage
+  
+locales: 
+  default: en_US
+  available: [en_US, ru_RU]
