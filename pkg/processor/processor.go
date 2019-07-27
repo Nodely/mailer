@@ -25,7 +25,7 @@ func New() *Processor {
 // Do prepares template for sending including data validation
 func (a *Processor) Do(payload []byte) error {
 	if payload == nil {
-		return errors.New("Payload is nil")
+		return errors.New("payload is nil")
 	}
 
 	// parse input
@@ -35,6 +35,7 @@ func (a *Processor) Do(payload []byte) error {
 	}
 
 	// verify locale
+	a.Resolver.Locate("some", "en_US")
 
 	return nil
 }

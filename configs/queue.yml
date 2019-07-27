@@ -1,0 +1,8 @@
+type: sqs
+name: notify-messages
+sqs: 
+  region: us-west-1
+  key: AWS_API_KEY
+  secret: AWS_API_SECRET
+rabbitmq: 
+  connection: amqp://localhost
